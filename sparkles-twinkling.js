@@ -14,7 +14,7 @@ function draw() {
     var sparkle = sparkles[i];
     
     fill(sparkle.h, 100, random(120-sparkle.frames/2));
-    ellipse(sparkle.x, sparkle.y, 2);
+    ellipse(sparkle.x, sparkle.y, 4);
     
     sparkle.x = sparkle.x + sparkle.vx;
     sparkle.y = sparkle.y + sparkle.vy;
